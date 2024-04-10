@@ -1,0 +1,17 @@
+{
+  "name": "3436315-issue-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_TLS_REJECT_UNAUTHORIZED=0 jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "jest": "^29.7.0"
+  }
+}
